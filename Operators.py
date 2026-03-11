@@ -291,22 +291,166 @@
 
 # output grade A
 
-grade= input("enter your grade")
-match grade:
-    case "A" | "a":
-        print("70-80")
+# grade= input("enter your grade")
+# match grade:
+#     case "A" | "a":
+#         print("70-80")
     
-    case "B" :
-        print("60-70")
-    case "C":
-        print("50-60")
-    case "D":
-        print("40-50")
-    case "F":
-        print("0-30")
-    case _:
-        print("invalid input")
+#     case "B" :
+#         print("60-70")
+#     case "C":
+#         print("50-60")
+#     case "D":
+#         print("40-50")
+#     case "F":
+#         print("0-30")
+#     case _:
+#         print("invalid input")
 
+# OUTPUT
+# enter your gradeA
+# 70-80
 
+# days=input("enter your day")
+# match days :
+#     case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+#         print("Working Day")
+#     case "Saturday" | "Sunday":
+#         print ("Leave Day")
+#     case _:
+#         print("Invalid Input")
 
+# output - enter your day - Monday - Working day
+
+# age=35
+# status="adult" if age>18 else "minor"
+# print(status)
+
+# output adult
+ 
+# 
+# STRING OPERATIONS
+
+# a="python"
+# b="programming"
+# c=a+ " " +b
+# print(c)
+
+# output
+# python programming
+
+# a="python\n"
+# b=10
+# c=a*b
+# print(c)
+
+# output
+
+# Python
+# python
+# python
+# python
+# python
+# python
+# python
+# python
+
+# a="python"
+# b=10
+# c=(a+"\n")*b
+# print(c)
+
+# output
         
+# python
+# python
+# python
+# python
+# python
+# python
+# python
+# python
+
+# a="python"
+# b=10
+# c=a*b
+# print(c)
+
+# output
+# pythonpythonpythonpythonpythonpythonpythonpythonpythonpython
+
+# a="python\t"
+# b=10
+# c=a*b
+# print(c)
+
+# output
+# python  python  python  python  python  python  python  python  python  python
+
+# a="programing"
+# print(a[0])
+
+# output
+# p
+
+# a="programing"
+# print(a[-1])
+
+# output
+# g
+
+# a="programing"
+# print(a[0:4])
+
+# output
+# prog
+
+# a="programing"
+# print(a[::-1])
+
+# output
+# gnimargorp
+
+# a="programing"
+# print(a[::-2])
+
+# output
+# giagr
+
+# STRING CHANGE CASE
+
+# a="HELLO WORLD"
+# print(a.lower())
+
+# hello world
+
+# a="python"
+# print(a.upper())
+
+# PYTHON
+
+# a="python programing"
+# print(a.capitalize())
+
+# Python programing
+
+# a="python programing"
+# print(a.title())
+
+# Python Programing
+
+# FIND AND REPLACE
+
+# a="python java css html"
+# b="java"
+# print(a.find(b))
+
+# output
+# 7
+
+# a="python java css html"
+# b=a.replace("java","c")
+# print(b)
+
+# output
+# python c css html
