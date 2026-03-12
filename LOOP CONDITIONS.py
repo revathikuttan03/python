@@ -40,3 +40,85 @@
 # *
 # *
 # *
+
+
+
+
+
+
+
+# limit = 6
+
+# i=1
+# while i<= limit:
+#     print("* " * i)
+#     i+=1
+
+# output
+# * 
+# * * 
+# * * * 
+# * * * *
+# * * * * *
+# * * * * * *
+
+# i=1
+# while i<=5:
+#     print("* " * i)
+#     i+=1
+
+# output
+# * 
+#  *  * 
+#  *  *  *
+#  *  *  *  *
+#  *  *  *  *  *
+
+# limit=5
+# i=1
+# while i<=limit:
+    
+#     print("*" )
+#     i+=1
+
+
+# a="apple"
+# b="grapes"
+# print(a,end=" ")
+# print(b)
+
+# output
+# apple grapes
+
+
+limit=5
+i=1
+z=limit
+# space=limit
+while i<=limit:
+    # print(" " * space,end='')
+    print("* "*z)
+   
+
+    i+=1
+    z-=1
+    # space = space-1
+
+# output
+#      * 
+#     * * 
+#    * * *
+#   * * * *
+#  * * * * *
+
+# limit=5
+# i=1
+# space=limit
+# while i<=limit:
+#     print(" "*space,end=" ")
+#     i+=1
+    
+    
+
+
+
