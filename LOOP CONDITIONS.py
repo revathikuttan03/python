@@ -91,17 +91,17 @@
 # apple grapes
 
 
-limit=5
-i=1
-z=limit
-# space=limit
-while i<=limit:
-    # print(" " * space,end='')
-    print("* "*z)
+# limit=5
+# i=1
+# z=limit
+# # space=limit
+# while i<=limit:
+#     # print(" " * space,end='')
+#     print("* "*z)
    
 
-    i+=1
-    z-=1
+#     i+=1
+#     z-=1
     # space = space-1
 
 # output
@@ -111,13 +111,54 @@ while i<=limit:
 #   * * * *
 #  * * * * *
 
+    
 # limit=5
 # i=1
-# space=limit
+# z=limit
+# space=0
 # while i<=limit:
-#     print(" "*space,end=" ")
-#     i+=1
     
+#     print(" "*space,end='')
+#     print("* "*z)
+    
+#     space+=2
+#     i+=1
+#     z-=1
+
+# * * * * * 
+#   * * * * 
+#     * * *
+#       * *
+#         *
+
+
+# a="python"
+# print(len(a))
+
+# output
+# 6
+
+num=int(input("enter your number"))
+a=num
+length=(len(str(num)))
+i=0
+result=0
+while i<length:
+    # print(i)
+    # i+=1
+    value=num%10
+    num//=10
+    # print(value)
+    i+=1
+    result+=value**length
+if a== result:
+    print("this is armstrong number")
+else:
+    print("this is not armstrong number")
+
+
+
+
     
 
 
