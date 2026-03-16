@@ -57,15 +57,13 @@
 # c=a%b
 # print(c)
 
-# 4
-
+#4
 # Floor Division 
-# a=10
-# b=3
-# c=10//3
-# print(c)
-
-# 3
+# a=10 
+# # b=3 
+# # c=10//3 
+# # print(c) 
+# # 3
 
 # Type Casting
 
@@ -83,16 +81,6 @@
 # print(c)
 
 # 2020
-
-#Type Casting
-# a="10"
-# a=int(a)
-# b="20"
-# b=int(b)
-# c=a+b
-# print(c)
-
-# 30
 
 # num1=int(input('enter your number'))
 # num2=int(input('enter your number'))
