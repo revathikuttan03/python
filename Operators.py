@@ -454,9 +454,3 @@
 
 # output
 # python c css html
-
-# slicing method
-
-a= "python programing"
-b=a[5:1:-1]
-print(b)

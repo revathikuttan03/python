@@ -42,3 +42,10 @@
 #      * * *
 #        * *
 #          *
+
+# name=input("enter your name: ")
+# place=input("enter your place: ")
+# print(f"i am {name},i am come from{place}")
+# enter your name: revathi
+# enter your place: pazhayannur
+# i am revathi,i am come from pazhayannur
