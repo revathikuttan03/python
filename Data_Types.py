@@ -32,7 +32,7 @@
 # print(c)
 
 # 200
-# Arithematic Operstions
+# Arithematic Operations
 
 # Exponent
 

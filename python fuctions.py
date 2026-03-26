@@ -97,6 +97,88 @@
 # output
 # percentage is :60%
 
+
+# def pattern(a):
+#     space=a
+#     for i in range(a):
+#         print("* "*i)
+#         print(" "*space,end=" ")
+#         space-=1
+
+# pattern(7)
+
+# output
+#         * 
+#        * *
+#       * * *
+#      * * * *
+#     * * * * *
+#    * * * * * *
+
+# recursive fuction
+
+# def fact(x):
+#     f=1
+#     for i in range(1,x+1):
+#         f=f*i
+#     print(f)
+# fact(6)
+
+# output
+# 720
+
+# def fact(x):
+#     if x==1:
+#         return 1
+#     else:
+#         return x * fact(x-1)
+# a=fact(5)
+# print(a)
+
+# output
+# 120
+
+# def count(x):
+#     print(x)
+#     if x==1:
+#         return 1
+#     else:
+#         return count(x-1)
+# count(10)
+
+# def count(y=1):
+#     print(y)
+#     return count(y+1)
+# count(10)
+
+# def count(x,y=1):
+#     print(y)
+#     if x==1:
+#         return 1
+#     else:
+#         return count(x-1,y+1)
+# count(10)
+
+# output
+
+# 1 
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+
+# lambda function
+
+a=lambda : print("hello world")
+a()
+
+    
+
     
 
     
