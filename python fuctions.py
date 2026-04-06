@@ -174,14 +174,90 @@
 
 # lambda function
 
-a=lambda : print("hello world")
-a()
+# a=lambda : print("hello world")
+# a()
 
+# output
+# hello world
+
+
+# letters="abcdefg"
+# for i in range(len(letters)):
+   
+#     print((letters[i]+ " ")*(i+1))
+
+def square(num):
+    return num*num
+a=int(input("enter your number"))
+print(square(a))
+
+# with argument withour return
+
+# add=lambda x,y : print (x+y)
+
+
+# add(10,20)
+    
+# with argument and wih return
+
+# add=lambda x,y : x+y
+# a=add (30,50)
+# print(a)
     
 
-    
+# add = lambda x,y : x+y
+# a=add (30,50)
+# b=add(70,30)
+# print(a+b)
 
-    
+# square =lambda x : x*x 
 
-      
+# a=square(3)
+# print(a)
+
+# ca=lambda a : 3.14*(a*a)
+
+# a=ca(5)
+# print(a)
+
+# add=lambda x=0,y=0 : x+y
+
+# print(add(10))
+
+# map
+
+# a=[1,2,3,4,5]
+# b=list(map(lambda x:x*x,a))
+# print(b)
+
+# output
+# [1, 4, 9, 16, 25]
+
+#  filter
+
+# a=[1,2,3,4,5,6,7,8,9,10]
+# b=list(filter(lambda x:x%2==0,a))
+# print(b)
+
+# output
+# [2, 4, 6, 8, 10]
+# a=[1,2,3,4,5,6,7,8,9,10]
+# b=list(filter(lambda x:x%2!=0,a))
+# print(b)
+
+# output
+# [1, 3, 5, 7, 9]
+
+# a=[5,7,3,10,5]
+# from functools import reduce
+# b=reduce(lambda x,y : x+y,a)
+# print(b)
+
+# output
+# 30
+
+# a=5
+# s="abcdefghij"
+# for i in range(a):
+#     print(s[i]*(i+1))
 

@@ -49,3 +49,20 @@
 # enter your name: revathi
 # enter your place: pazhayannur
 # i am revathi,i am come from pazhayannur
+
+# for i in range(5):
+#     print(i)
+
+# i = 0
+# while i < 5:
+#     print(i)
+#     i += 1
+
+# def fact(x):
+#     f=1
+#     for i in range(1,x+1):
+#         f=f*i
+#     print(f)
+
+# fact(5)
+
