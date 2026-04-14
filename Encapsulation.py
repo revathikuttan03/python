@@ -35,20 +35,6 @@
 # e1.__salary=2000000
 # e1.show()
 
-
-# name=input("enter your name")
-# balance=int(input("enter your balance"))
-# amount=int(input("enter deposite amount"))
-# balance+=amount
-# amount=int(input("enter withdrawal amount "))
-# if amount<=balance:
-#     balance-=amount
-
-#     print("name: ",name)
-#     # print("balance: ",balance)
-#     print("final balance:",balance)
-
-
 # class Bank():
 #     def __init__(self,name,amount):
 #         self.name=name
@@ -96,28 +82,28 @@
 # a1=Employee1("anu",25)
 # a1.show()
     
-class Bank():
-    def __init__(self,name,age,accountnumber):
-        self.name=name
-        self.age=age
-        self.accountnumber=accountnumber
+# class Bank():
+#     def __init__(self,name,age,accountnumber):
+#         self.name=name
+#         self.age=age
+#         self.accountnumber=accountnumber
 
-class Accounts(Bank):
-    def __init__(self, name, age, acno,damount):
-        Bank.__init__(self,name,age,acno)
-        self.__balance=damount
+# class Accounts(Bank):
+#     def __init__(self, name, age, acno,damount):
+#         Bank.__init__(self,name,age,acno)
+#         self.__balance=damount
 
-    def Deposit(self,amount):
-        self.__balance += amount
+#     def Deposit(self,amount):
+#         self.__balance += amount
 
-    def withdrawal(self,amount):
-        if self.__balance >=amount:
-            self.__balance -=amount
-        else: 
-            print("insufficient balance")
+#     def withdrawal(self,amount):
+#         if self.__balance >=amount:
+#             self.__balance -=amount
+#         else: 
+#             print("insufficient balance")
 
-    def checkbalance(self):
-        print(f"name:{self.name}{" "*10}accountnumber:{self.accountnumber}\nbalance:{self.__balance}")
+#     def checkbalance(self):
+#         print(f"name:{self.name}{" "*10}accountnumber:{self.accountnumber}\nbalance:{self.__balance}")
 
 # s1=Accounts(age=20,name="radha",acno=3556677,damount=2000)
 
@@ -168,24 +154,96 @@ class Accounts(Bank):
 # answer is:  10
 # answer is:  20
 
-class Calculator():
-    def addition (self,a,b=0,* args):
-        self.result=a+b
-        for i in args:
-            self.result +=i
-        print("answer is:",self.result)
+# class Calculator():
+#     def addition (self,a,b=0,* args):
+#         self.result=a+b
+#         for i in args:
+#             self.result +=i
+#         print("answer is:",self.result)
 
-    def multiply(self,a,b=1,*args):
-        self.result=a*b
-        for i in args:
-            self.result *=i
-        print("answer is :",self.result)
+#     def multiply(self,a,b=1,*args):
+#         self.result=a*b
+#         for i in args:
+#             self.result *=i
+#         print("answer is :",self.result)
 
-# a=Calculator()
+# # a=Calculator()
 # a.addition(10,20,30,40)
 # a.multiply(10,2,2,2)
 
 
+
+# class Pattern():
+#     def __init__(self,n):
+#         self.n=n 
+
+#     def show(self):
+#         print("Pattern")
+#         for a in range (1,a+1):
+#             print("*"*a)
+
+
+# a=Pattern()
+# a.show()
+
+
+# i=5
+# space=i
+# for a in range(1,i+1):
+#     # print(" "*space,end=" ")
+#     print ("*"*a)
+
+    
+    
+#     space-=1
+
+
+
+# limit=5
+# i=1
+# space=limit
+# z=1
+# while i<=limit:
+#     print(" " * space,end='')
+#     if i == 1 or i==limit:
+#         print("* "*i)
+#     else:
+#         print("* "+("  "*(i-2))+"*")
+#     i+=1
+    
+#     z+=1
+#     space-=1
+
+
+
+#      * 
+#     * *
+#    *   *
+#   *     *
+#  * * * * * 
+ 
+limit=5
+i=1
+space=limit
+z=1
+gap = limit*2
+gap-=2
+while i<=limit:
+    print("* "*i +("  "*(gap)+"* "*i))
+    
+    gap-=2
+    
+    
+    
+    i+=1
+    z+=1
+    space-=1
+
+
+    
+
+
+    
 
         
 
